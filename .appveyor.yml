@@ -9,8 +9,8 @@ branches:
 build: off
 
 install:
+ - java -jar ./artifacts/app-mbank.jar &
 
-  - java -jar ./artifacts/app-mbank.jar &
 
 build_script:
   - ./gradlew test --info"Dselenide.headless=true"
